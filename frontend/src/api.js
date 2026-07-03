@@ -1,4 +1,5 @@
-const API_URL = "http://127.0.0.1:8000";
+// const API_URL = "http://127.0.0.1:8000";  
+ const API_URL = "https://ai-mock-interviewer-backend-86mv.onrender.com";
 
 export async function startInterview(role, difficulty) {
   const res = await fetch(`${API_URL}/start`, {
